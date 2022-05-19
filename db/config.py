@@ -1,0 +1,3 @@
+HOST = "localhost"
+USER = "YOUR USERNAME"
+PASSWORD = "YOUR PASSWORD"
