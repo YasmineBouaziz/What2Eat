@@ -55,6 +55,12 @@ step_order int,
 step_time int
 );
 
+CREATE TABLE user_recipe_likes (
+id SMALLINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+FOREIGN KEY (id) REFERENCES recipe(id),
+FOREIGN KEY (id) REFERENCES users(id)
+);
+
 
 select * From recipe;
 SELECT DATA_TYPE from INFORMATION_SCHEMA.columns WHERE table_schema = 'What2Eat' and table_name = 'actions';
