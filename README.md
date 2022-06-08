@@ -1,2 +1,2 @@
-# What2Eat
+# What2Eat app
 CFG Nanodegree Group Project
